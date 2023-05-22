@@ -13,7 +13,7 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.model_selection import train_test_split
 
 
-os.chdir("C:\\Users\\xuzhexi\\Desktop\\train")
+
 
 data_file = open('data_48.pkl', 'rb')
 label_file = open('label_48.pkl', 'rb')
