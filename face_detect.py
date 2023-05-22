@@ -46,7 +46,7 @@ def read_data():
     data_list=[]
     label_list=[]
     start=time.time()
-    for root, dirs, files in os.walk("C:\\Users\\xuzhexi\\Desktop\\train"):
+    for root, dirs, files in os.walk("C:\\train"):
         root=root+"\\"
         for i in files:
             if os.path.isfile(os.path.join(root,i)):
